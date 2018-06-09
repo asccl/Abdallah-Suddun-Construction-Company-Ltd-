@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   font-family: 'Montserrat';
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 h1,
