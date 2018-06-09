@@ -402,7 +402,7 @@ header {
     .form {
         width: 40%;
         form {
-            border-left: 25px solid $main;
+            border-left: 25px solid transparent;
             h4 {
                 font-weight: 400;
                 font-size: 22px;
@@ -661,11 +661,12 @@ footer {
                 input,
                 textarea {
                     outline: none;
-                    width: 320px;
+                    width: 300px;
                     display: block;
                     border: 0;
                     border-bottom: 2px solid $main; //border: none;
                     background: transparent;
+                    padding: 0 10px;
                     @include transition();
                     &:focus {
                         color: $white;

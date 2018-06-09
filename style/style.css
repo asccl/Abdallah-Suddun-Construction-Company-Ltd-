@@ -434,7 +434,7 @@ header .burger:hover {
 }
 
 .contact .form form {
-  border-left: 25px solid #f9d8ab;
+  border-left: 25px solid transparent;
   color: #f9d8ab;
   display: flex;
   flex-direction: column;
@@ -726,11 +726,12 @@ footer .credit a:hover:before {
   .contact .form form input,
   .contact .form form textarea {
     outline: none;
-    width: 320px;
+    width: 300px;
     display: block;
     border: 0;
     border-bottom: 2px solid #f9d8ab;
     background: transparent;
+    padding: 0 10px;
     transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -moz-transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -o-transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
