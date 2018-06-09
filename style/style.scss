@@ -579,6 +579,7 @@ footer {
             justify-content: center;
             .service{
                 margin: 1em 0;
+
             }
         }
     }
@@ -636,7 +637,7 @@ footer {
         .form {
             width: 100%;
             form {
-                border-left: 15px solid $main;
+                border-left: 0px solid transparent;
                 h4 {
                     font-weight: 400;
                     font-size: 22px;

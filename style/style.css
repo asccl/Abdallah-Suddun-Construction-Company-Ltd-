@@ -701,7 +701,7 @@ footer .credit a:hover:before {
     width: 100%;
   }
   .contact .form form {
-    border-left: 15px solid #f9d8ab;
+    border-left: 0px solid transparent;
     color: #f9d8ab;
     display: flex;
     flex-direction: column;
