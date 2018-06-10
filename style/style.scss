@@ -364,6 +364,7 @@ header {
         align-items: center;
         justify-content: center;
         width: 50%;
+        margin-bottom: 2em;
         .reason {
             margin: 1em 0;
             display: flex;
@@ -561,6 +562,9 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        &:last-child{
+            margin-bottom: 2em;
+        }
         .work-gallery {
             display: block;
             margin: 1em;
